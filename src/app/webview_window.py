@@ -11,5 +11,5 @@ class WebsiteWindow(QWidget):
 
         layout = QVBoxLayout(self)
         self.web_view = QWebEngineView(self)
-        self.web_view.load(QUrl("https://www.google.com"))
+        self.web_view.load(QUrl("https://big-brother-five.vercel.app/"))
         layout.addWidget(self.web_view)
